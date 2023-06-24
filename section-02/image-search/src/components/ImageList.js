@@ -6,10 +6,7 @@ const ImageList = ({ images }) => {
         return <ImageShow image={image} key={image.id} />
     })
     return (
-        <div className='image-list' style={{
-            columns: '6, 200px',
-            columnGap: '10px'
-        }}>
+        <div className='image-list'>
             {renderedImages}
         </div>
     )
