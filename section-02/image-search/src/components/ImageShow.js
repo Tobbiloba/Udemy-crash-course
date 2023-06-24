@@ -1,10 +1,10 @@
 import React from 'react'
 
 const ImageShow = ({ image }) => {
-    console.log(image)
+    // console.log(image)
     return (
-        <div>
-            <img src={image.urls.small} alt={image.alt_description} />
+        <div className=''>
+            <img src={image?.urls.small} alt={image.alt_description} />
         </div>
     )
 }

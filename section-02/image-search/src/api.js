@@ -11,7 +11,9 @@ const searchImages = async (term) => {
             per_page: 20
         }
     })
-    console.log(response.data)
+    // console.log(term)
     return response.data.results;
 }
 export default searchImages;
+
+
